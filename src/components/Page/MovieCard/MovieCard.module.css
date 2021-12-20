@@ -1,0 +1,35 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  text-align: center;
+  list-style: none;
+}
+
+.item {
+  margin: 20px;
+  width: 300px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: #c7c2c2;
+  transition: 0.25s;
+}
+
+.title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  text-decoration: none;
+  color: rgb(39, 39, 99);
+}
+
+.subtitle {
+  font-size: 20px;
+}
+
+.image {
+  width: 300px;
+  height: auto;
+}
